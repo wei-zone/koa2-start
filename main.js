@@ -1,0 +1,1 @@
+const Koa = require('koa')const app = new Koa()app.use(async ctx => {    ctx.body = 'Hello Koa'})app.listen(10086)console.log('server is running at http://localhost:10086')
