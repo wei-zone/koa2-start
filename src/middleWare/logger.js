@@ -1,0 +1,1 @@
+/** * @Author: forguo * @Date: 2024/6/23 22:05 * @Description: index.js */const logger = async (ctx, next) => {    console.log(`<- ${ctx.req.method} ${ctx.req.url} start`);    const start = Date.now();    await next();    const ms = Date.now() - start;    console.log(`-> ${ctx.req.method} ${ctx.req.url} end - ${ms}ms`);}module.exports = logger;

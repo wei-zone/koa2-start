@@ -1,0 +1,1 @@
+# koa2-quick-start> koa2-template, koa2-quick-start, koa2-ts-quick-start## Start[local](http://127.0.0.1:10086/)[api-docs](http://127.0.0.1:10086/api-docs)```bash# install dependenciespnpm install# serve with hot reload at localhost:3000pnpm run dev# build for production with minificationpnpm run build```
